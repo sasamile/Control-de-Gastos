@@ -60,6 +60,7 @@ header h1 {
     width: 95%;
     margin: 0 auto;
     padding: 10rem 0;
+  
 }
 @media (min-width: 768px) {
     .formulario {
@@ -80,7 +81,9 @@ header h1 {
 .formulario .campo {
     display: grid;
     margin-bottom: 2rem;
+    
 }
+
 
 .formulario label {
     color: var(--azul);
@@ -95,6 +98,8 @@ header h1 {
     border-radius: 1rem;
     padding: 1rem;
     border: none;
+    width: 100%;
+    margin: 0,auto;
     flex: 1;
     font-size: 1.6rem;
 }
@@ -145,8 +150,7 @@ header h1 {
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
 }
-.alerta.success {
-}
+
 
 .contenedor {
     width: 90%;
